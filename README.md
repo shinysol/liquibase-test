@@ -11,9 +11,9 @@ docker run --rm -v "$(pwd)/db/changelog:/db/changelog" liquibase \
 	--driver=org.mariadb.jdbc.Driver validate
 ```
 
-### changelog
+### changelogs
 
-- xml
-- sql
-- xml_sql
-- json_sql
+- /db/changelog/xml
+- /db/changelog/sql
+- /db/changelog/xml_sql
+- /db/changelog/json_sql
