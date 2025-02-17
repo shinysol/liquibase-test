@@ -22,5 +22,7 @@
             </column>
         </createTable>
     </changeSet>
-
+    <changeSet id="ver-2.0" author="renny">
+        <tagDatabase tag="ver-2.0" />
+    </changeSet>
 </databaseChangeLog>
