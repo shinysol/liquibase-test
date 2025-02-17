@@ -11,8 +11,8 @@
         http://www.liquibase.org/xml/ns/pro
         http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
 
-    <preConditions>  
-        <runningAs  username="liquibase"/>  
+    <preConditions onFail="WARN">  
+        <runningAs  username="root"/>  
     </preConditions>  
 
     <changeSet  id="1"  author="nvoxland">  
