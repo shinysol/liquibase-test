@@ -12,7 +12,7 @@
         <runningAs username="root" />
     </preConditions>
 
-    <changeSet id="1" author="renny">
+    <changeSet id="ver-2.0-1" author="renny">
         <createTable tableName="temp">
             <column name="id" type="int" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false" />
@@ -22,7 +22,7 @@
             </column>
         </createTable>
     </changeSet>
-    <changeSet id="ver-2.0" author="renny">
+    <changeSet id="tag-ver-2.0" author="renny">
         <tagDatabase tag="ver-2.0" />
     </changeSet>
 </databaseChangeLog>
