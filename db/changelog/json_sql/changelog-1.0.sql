@@ -9,6 +9,3 @@ CREATE TABLE IF NOT EXISTS users (
 
 --changeset author:changelog-1.0-2
 ALTER TABLE users ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
-
---changeset author:changelog-1.0-3
-INSERT INTO users VALUES (1, 'david', 'david@test.com');
